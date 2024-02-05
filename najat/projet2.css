@@ -2,20 +2,25 @@
 .container{
         display: flex;
         justify-content: space-between;
-        background-color: rgb(100, 147, 162);
+        background-color:rgb(71, 71, 73);
+        
 
   
 }
 .item1 ul li{
     display: inline;
-    padding: 30px;
+    padding: 40px;
     font-size: 20px;
+  
+   
     
 }
-.item1 a{
+.item1 a{ 
     text-decoration: none;
-    color: blue; 
-}
+    color: white;
+} 
+   
+
 
 .ite{
     display: flex;
@@ -24,12 +29,16 @@
 }
 
 .item2{
-    font-size: 50px;
+    font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     animation-name: x;
     animation-duration: 2s;
     animation-delay: 1s;
-    margin-top: 30px;
+    margin-top: 50px;
+    line-height: 85px;
+   
+
+    
 
 } 
 @keyframes x{
@@ -56,30 +65,18 @@
         transform: translateY(30px);
     }
 }
-.butt{
-    background-color:  rgb(129, 166, 179);
-    color: rgb(15, 30, 233);
-    width: 150px;
-    height: 45px;
-    font-size: 20px;
-    border-radius: 20px;
 
-}
-.butt:hover{
-    transform: scale(1.1);
-    color: rgb(60, 68, 189);
-    background-color: rgb(93, 174, 204);
-
-}
 .div1{
     display: flex;
+ 
    
 } 
 .div2{
     
     line-height:50px;
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
    
 }
 
@@ -116,21 +113,23 @@
 nav{
     display: flex;
     justify-content: space-around;
+  
    
 }
 .div1:hover{
     transform: scale(1.1);
-    color: rgb(100, 147, 162);
+    color: rgb(79, 84, 86);
 
 }
 .div3:hover{
     transform: scale(1.1);
-    color: rgb(81, 152, 175);
+    color: rgb(121, 128, 130);
    
 }
 .div5:hover{
     transform: scale(1.1);
-    color: rgb(41, 160, 199);
+    color: rgb(99, 102, 103);
+  
 }
 #contt{
     display:flex;
@@ -147,12 +146,16 @@ nav{
     color: rgb(231, 231, 236);
     width: 130px;
     height: 40px;
-    font-size: 15px;
+    font-size: 13px;
     background-color: rgb(44, 44, 49);
     border-radius: 20px;
     margin-top: 40px;
-    transform: scale(1.1);
     
+}
+.button2:hover{
+    transform: scale(1.1);
+    color: rgb(21, 21, 164);
+    background: white;
 }
 .head4{
     
@@ -262,8 +265,8 @@ header{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-  
 }
+
 .be{
     display: flex;
     margin-top: 30px;
@@ -288,8 +291,8 @@ header{
     justify-content: space-around;
     margin-top: 30px;
 
- 
 }
+
 .d{
 
     font-size: 30px;
@@ -303,38 +306,27 @@ header{
 }
 .dv1{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     background-color: rgb(48, 46, 46);
     color: rgb(173, 189, 202);
 }
 .item1 a:hover{
-    color: rgb(50, 43, 117);
+    color: rgb(58, 150, 177);
     transform: scale(1.5);
 }
-.iteem1:hover{
+
+.scal:hover{
     transform: scale(1.1);
     background-color:  rgb(191, 194, 200);
-   
-
-
-
-
 }
-.iteem2:hover{
-    transform: scale(1.1);
-    background-color:  rgb(191, 194, 200);
-
+.iteem4{
+    margin-bottom: 40px;
 }
-.iteem3:hover{
-    transform: scale(1.1);
-    background-color:  rgb(191, 194, 200);
-
+.scal{
+    margin-bottom: 15px;
 }
-.iteem4:hover{
-    transform: scale(1.1);
-    background-color:  rgb(191, 194, 200);
 
-}
+
 .span{
     margin-left: 40px;
 }
@@ -370,24 +362,30 @@ header{
     
 }
 .lo{
-    width: 40px;
-    height: 30px;
+    display: flex;
+ 
+  
     margin-right: 70px;
+ 
     
 }
 .loo{
-    width: 40px;
-    height: 30px;
+    display: flex;
+    color: rgb(211, 77, 180);
+   
+
     
 }
 .twit{
-    width: 40px;
-    height: 30px;
+   
     margin-left: 70px;
     
 }
 .logo{
     display: flex;
-    padding: 60px;
+    padding: 25px;
    justify-content: space-around;
+}
+.fb{
+    color: rgb(76, 76, 196);
 }
