@@ -2,22 +2,30 @@
 .container{
         display: flex;
         justify-content: space-between;
-        background-color:rgb(71, 71, 73);
+        background-color: #4fabc7 ;
+
         
 
   
+}
+.couleur{
+    background-color: #f6fafd;
+
 }
 .item1 ul li{
     display: inline;
     padding: 40px;
     font-size: 20px;
   
+  
    
     
 }
+
 .item1 a{ 
     text-decoration: none;
-    color: white;
+    color: rgb(251, 245, 245);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 } 
    
 
@@ -29,59 +37,67 @@
 }
 
 .item2{
-    font-size: 60px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px #201f1f;
     animation-name: x;
     animation-duration: 2s;
-    animation-delay: 1s;
+    animation-delay: 0.3s;
     margin-top: 50px;
     line-height: 85px;
-   
+  
+}
 
-    
-
-} 
 @keyframes x{
     0%{
         transform: translateY(-500px);
     }
     100%{
-        transform: translateY(40px);
+        transform: translateY(20px);
+        
 
     }
+   
 
 }
+
+
 .image1{
   
     padding: 40px;
     animation-name: show;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+   
+
+
+    
  
 }
+
 @keyframes show{
    
     50%{
-        transform: translateY(30px);
-    }
+        transform: translateY(40px);
+       
+      
+            
+}
 }
 
 .div1{
-    display: flex;
- 
-   
+    display: flex;  
 } 
 .div2{
     
     line-height:50px;
     font-size: 25px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
     
    
 }
 
 .shop1{
-   color: rgb(146, 140, 138);
+   color:deepskyblue ;
 }
 .div3{
     display: flex;
@@ -91,11 +107,9 @@
 .div4{
     line-height:50px;
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
- 
 }
 .shop2{
-    color: rgb(146, 140, 138);
+    color: deepskyblue ;
 }
 .div5
 {
@@ -104,11 +118,10 @@
 .div6{
     line-height:50px;
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  
 }
 .shop3{
-    color:rgb(146, 140, 138);
+    color:deepskyblue ;
 }
 nav{
     display: flex;
@@ -116,19 +129,13 @@ nav{
   
    
 }
-.div1:hover{
-    transform: scale(1.1);
-    color: rgb(79, 84, 86);
 
-}
-.div3:hover{
+.man:hover{
     transform: scale(1.1);
-    color: rgb(121, 128, 130);
-   
 }
 .div5:hover{
-    transform: scale(1.1);
-    color: rgb(99, 102, 103);
+
+    color: rgb(0, 0, 0);
   
 }
 #contt{
@@ -162,6 +169,7 @@ nav{
     line-height: 20px;
     font-size:13px ;
     margin-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   
 }
 .nnnot{
@@ -307,8 +315,10 @@ header{
 .dv1{
     display: flex;
     justify-content:space-around;
+    align-items: center;
     background-color: rgb(48, 46, 46);
     color: rgb(173, 189, 202);
+   
 }
 .item1 a:hover{
     color: rgb(58, 150, 177);
@@ -349,7 +359,7 @@ header{
     border-radius: 30px;
     font-size: 20px;
     border-color: bisque;
-   
+
     margin-left: 5px;
     margin-top: 10px;
     background-color:  rgb(220, 220, 222);
@@ -358,34 +368,138 @@ header{
 }
 .btm:hover{
    color:rgb(247, 247, 255) ;
-   background-color: rgb(90, 91, 95);
+   background-color: deepskyblue ;
     
 }
-.lo{
-    display: flex;
- 
-  
-    margin-right: 70px;
- 
-    
-}
-.loo{
-    display: flex;
-    color: rgb(211, 77, 180);
-   
+
+@media screen and (max-width:700px){
+    .item1{
+        height: 400px;
+        display: block;
+        position: relative;
+        text-align: center;
+
+    }
+    .item1 ul li a{
+        display: block;
+        text-align: center;
+
+    }
+    .ite{
+        display: block;
+        text-align: center;
+
+    }
+    nav{
+        display: block;
+        text-align: center;
+
+    }
+    .cont2{
+        display: block;
+        text-align: center;
+    }
+    .cont3{
+        display: block;
+        text-align: center;
+
+    }
+    .b1{
+        display: block;
+        text-align: center;
+
+    }
+    .phot{
+        display: block;
+        text-align: center;
+
+
+    }
+    .page2{
+      flex-direction: column;
+      margin-top: 170px;
+    }
+    #contt{
+       flex-direction: column;
+    }
+    .all{
+        margin-bottom: 100px;
+    }
+    .pages1{
+       flex-direction: column;
+       text-align: center;
 
     
-}
-.twit{
+       
+    }
+    .navbar{
+        display: block;
+        margin-bottom: 400px;
    
-    margin-left: 70px;
+    }
+   
+    .button2{
+       margin-left: 80px;
+    }
+    .mag{
+        width: 500px;
+    }
+    
     
 }
-.logo{
-    display: flex;
-    padding: 25px;
-   justify-content: space-around;
+.page_noire{
+    background-color: black; 
 }
-.fb{
-    color: rgb(76, 76, 196);
+.about {
+    color:rgb(28, 86, 179);
+    font-size: 20px;
+
+}
+.paragraphe{
+    color: aliceblue;
+    font-size: 15px;
+}
+.service{
+    color: aliceblue;
+    font-size: 15px;
+}
+.numero{
+    color: aliceblue;
+    font-size: 15px;
+}
+.pages1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    line-height: 40px;
+    height: 400px;
+}
+.page2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 50px;
+}
+.abou{
+    color:dodgerblue;
+    font-size: 20px;
+}
+.instagram{
+    color: aliceblue;
+    font-size: 20px;
+}
+#prix1{
+    line-height: 33px;
+}
+.phot1:hover{
+    transform: scale(1.1);
+}
+.phot2:hover{
+    transform: scale(1.1);
+}
+.phot3:hover{
+    transform: scale(1.1);
+}.phot4:hover{
+    transform: scale(1.1);
 }
